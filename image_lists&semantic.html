@@ -1,0 +1,132 @@
+<!-- Part 1: Advanced Images
+✅ Syntax refresher:
+
+<img src="filename.jpg" alt="description" width="300">
+
+📝 Attributes:
+
+    src: The image path or URL.
+
+    alt: Alternative text if the image fails to load (also helps screen readers).
+
+    width and height: Control size.
+
+🌐 Example using an online image:
+
+<img src="https://via.placeholder.com/300" alt="Sample image" width="300">
+
+📋 Part 2: Lists – Ordered & Unordered
+🔘 Unordered List (<ul>) = bullet points
+
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ul>
+
+🔢 Ordered List (<ol>) = numbered list
+
+<ol>
+  <li>Wake up</li>
+  <li>Eat breakfast</li>
+  <li>Code</li>
+</ol>
+
+You can even nest lists!
+
+<ul>
+  <li>Languages
+    <ol>
+      <li>Python</li>
+      <li>JavaScript</li>
+    </ol>
+  </li>
+</ul>
+
+🧱 Part 3: Semantic Tags
+
+Semantic = meaningful structure.
+Tag	Purpose
+<header>	Top of the page or section
+<nav>	Navigation links
+<main>	The main content
+<section>	A section of content
+<article>	A stand-alone piece (e.g. blog)
+<footer>	Bottom part (contact, copyright)
+💡 Why use them?
+
+    Better for SEO
+
+    Helps screen readers
+
+    Cleaner, more organized HTML
+
+🧩 Example: -->
+<!DOCTYPE html>
+<html>
+  <head><title>Semantic Page</title></head>
+  <body>
+
+    <header>
+      <h1>Mark's Portfolio</h1>
+      <nav>
+        <a href="#about">About</a> |
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>Cybersecurity enthusiast & Software Engineer</p>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li>Network Scanner</li>
+          <li>RSA Decryption Script</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Mark Gitonga</p>
+    </footer>
+
+  </body>
+</html> 
+
+<!-------------------------------------------------------------------------------------------->
+ <!--EXERCISE-->
+ <!DOCTYPE html>
+<html>
+  <head>
+    <title>Mark Gitonga</title>
+  </head>
+  <body>
+    <header>
+      <h1>Mark Gitonga</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#home" target="_blank">Home</a></li>
+        <li><a href="#about" target="_blank">About</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <img src="https://media.istockphoto.com/id/490693469/photo/gold-ingots.jpg?s=612x612&w=0&k=20&c=W0EpTVoZ0dyefcfORcRUDS_StzW1TjDMLX0PQ3zmzS4=" alt="Gold is Old" width="300">
+      <ul>
+        <li>Python</li>
+        <li>Linux</li>
+        <li>Networking</li>
+      </ul>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Mark Gitonga</p>
+    </footer>
+  </body>
+</html>
