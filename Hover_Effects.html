@@ -1,0 +1,53 @@
+<!-- What is :hover?
+
+:hover is a pseudo-class that lets you define how an element behaves when a user places the mouse over
+it-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hover Effect</title>
+
+        <style>
+            .btn{
+                background-color: royalblue;
+                color: white;
+                padding: 20px 30px;
+                border: none;
+                border-radius: 8px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+            .btn:hover{
+                background-color: dodgerblue;
+            }
+        </style>
+    </head>
+    <body>
+        <button class="btn">Hover Me</button>
+    </body>
+</html>
+
+<!-------------------------------------------------------------------------------------------------
+--------------------------------IMAGE ON HOVER----------------------------------------------->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Img: Hover</title>
+        <style>
+            .img-container img{
+                width: 200px;
+                transition: transform 0.4s ease;
+            }
+            .img-container img:hover{
+                transform: scale(1.1);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="img-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Gold_bullion_ap_001.JPG/250px-Gold_bullion_ap_001.JPG" alt="Helly Hansen Logo" />
+
+
+        </div>
+    </body>
+</html>
